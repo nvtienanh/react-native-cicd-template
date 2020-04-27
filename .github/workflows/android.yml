@@ -44,6 +44,7 @@ jobs:
         android_pw: ${{ secrets.android_pw }}
         android_alias: ${{ secrets.android_alias }}
       run: |
+        chmod +x ./gradlew
         echo "$KEYSTORE" | xxd -r -p - > app/release.keystore
         echo $AT > ~/play_api_key_rn_spaceviewer.json
         fastlane android detox
