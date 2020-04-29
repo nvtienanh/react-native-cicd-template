@@ -1,4 +1,4 @@
-# Space Viewer - Rocket Infos (Monorepo)
+# VTSG - Hotel project
 
 ![iOS build](https://github.com/nvtienanh/react-native-cicd-template/workflows/iOS/badge.svg)
 
@@ -8,7 +8,7 @@ This is the source code for the iOS App ['Space Viewer - Rocket Infos'](https://
 
 This includes rocket launches from SpaceX, NASA, ROSCOSMOS, ISRO, ULA and many more!
 
-![space-viewer](packages/mobile/mockup.png)
+
 
 ## Technical Stack
 
@@ -17,6 +17,13 @@ This includes rocket launches from SpaceX, NASA, ROSCOSMOS, ISRO, ULA and many m
 * Code Push by Microsoft App Center
 * Redux-Saga for asynchronous actions
 * Moment.Js for date operations
+
+## Cấu trúc project
+`packages` là thư mục chứa source code của project bao gồm 3 thư mục con:
+- `common`: chưa source code React Native
+- `mobile`: chứa source code của mobile app bao gồm Android và iOS
+- `web`: chứa souce code của web app
+
 
 ## Installation
 ### Window
@@ -36,11 +43,13 @@ Install all dependencies:
 yarn
 ```
 ### Web version
+![space-viewer](packages/web/mockup.png)
 Start web version:
 ```bash
 yarn web/start
 ```
 ### Mobile version
+![space-viewer](packages/mobile/mockup.png)
 Open a terminal in root dir of project then run:
 ```bash
 yarn mobile/start

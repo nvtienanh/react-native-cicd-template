@@ -7,7 +7,7 @@ export const SettingsList = ({ saveValue, settings, navigation, openURL }) => {
 
   return (
     <View style={{ flex: 1 }}>
-      <Text>Not yet implemented</Text>
+      <Text>Chưa phát triển</Text>
     </View>
   );
 };

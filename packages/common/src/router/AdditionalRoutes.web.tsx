@@ -31,7 +31,7 @@ export const AdditionalRoutes = () => {
         render={() => (
           <BaseScreen>
             <View style={{ flex: 1, backgroundColor: 'white' }}>
-              <Text>Not yet implemented</Text>
+              <Text>Tính năng chưa hoàn thiện</Text>
             </View>
           </BaseScreen>
         )}
