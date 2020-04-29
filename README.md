@@ -10,7 +10,7 @@ This includes rocket launches from SpaceX, NASA, ROSCOSMOS, ISRO, ULA and many m
 
 ![space-viewer](packages/mobile/mockup.png)
 
-## Tech Stack
+## Technical Stack
 
 * Monorepo (yarn workspace)
 * React Native (without Expo)
@@ -18,14 +18,38 @@ This includes rocket launches from SpaceX, NASA, ROSCOSMOS, ISRO, ULA and many m
 * Redux-Saga for asynchronous actions
 * Moment.Js for date operations
 
+## Installation
+### Window
+- *Yarn*: [Yarn for Window](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+- Nodejs: [Node 12] (https://nodejs.org/en/download/)
+- Android Studio
+- Oracle JDK8
+### Linux
+
+### MacOs
+
 React Native project can be found at [packages/mobile](packages/mobile)
 
 ## Build & Run
-Should be as easy as:
-
-      yarn; yarn mobile/start
-      yarn run-android
-      yarn run-ios
+Install all dependencies:
+```bash
+yarn
+```
+### Web version
+Start web version:
+```bash
+yarn web/start
+```
+### Mobile version
+Open a terminal in root dir of project then run:
+```bash
+yarn mobile/start
+```
+Open 2nd Terminal in root dir of project and run
+```bash
+yarn run-android # For Android
+yarn run-ios # For iOS
+```
 
 ## Credits / Special Thanks
 
