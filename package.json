@@ -11,7 +11,7 @@
     "lint": "eslint packages --fix",
     "lint-check": "eslint packages --quiet",
     "watch": "yarn workspace spaceviewer-common watch",
-    "postinstall": "yarn jetify; yarn workspace mobile postinstall",
+    "postinstall": "yarn jetify && yarn workspace mobile postinstall",
     "mobile/start": "yarn workspace mobile start",
     "web/start": "yarn workspace web start",
     "run-android": "yarn workspace mobile run-android",
@@ -25,10 +25,11 @@
   "devDependencies": {
     "@react-native-community/eslint-config": "1.0.0",
     "@typescript-eslint/parser": "^2.26.0",
+    "detox": "^14.5.1",
     "eslint": "^6.8.0",
     "husky": "^3.0.1",
+    "jetifier": "^1.6.5",
     "lint-staged": "^9.2.0",
-    "detox": "^14.5.1",
     "typescript": "3.8.2"
   }
 }
