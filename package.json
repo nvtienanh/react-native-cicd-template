@@ -1,6 +1,6 @@
 {
-  "name": "react-native-spaceviewer",
-  "version": "2.1.4",
+  "name": "y",
+  "version": "y",
   "private": true,
   "workspaces": {
     "packages": [
@@ -31,5 +31,10 @@
     "jetifier": "^1.6.5",
     "lint-staged": "^9.2.0",
     "typescript": "3.8.2"
-  }
+  },
+  "description": "y",
+  "main": "y",
+  "repository": "y",
+  "author": "y",
+  "license": "y"
 }

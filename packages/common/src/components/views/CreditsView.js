@@ -19,7 +19,7 @@ export class CreditsView extends React.Component {
         <ScrollView>
           <Card>
             <CardItem header bordered>
-              <Text>Credits</Text>
+              <Text>who</Text>
             </CardItem>
             <CardItem
               bordered
